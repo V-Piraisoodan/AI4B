@@ -32,7 +32,7 @@ console.log(Apidata)
 
    return (
     <div className="container">
-        <div className="tittle">USER INFORMATION</div>
+        <marquee direction="left" behavior="scroll" className="tittle">👉!!!. USER INFORMATION .!!!👈</marquee>
         <span className="search-con">
           <div>Search</div>
           <input type="text" placeholder="Search by Name" onChange={handleChange} className="inputbox"/>
