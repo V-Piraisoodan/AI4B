@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
+
+.popup-con{
+    position: relative;
+    position: fixed;
+
+    margin-top: 10px;
+    height: 220px;
+    width: 500px;
+
+    padding: 30px;
+    border: 1px solid rgb(112, 112, 253);
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+.del-btn{
+    position: absolute;
+    cursor: pointer;
+    left: 90%;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-bottom: 8px;
+    height: 25px;
+    width: 30px;
+    font-size: 18px;
+    border-radius: 7px;
+}
+.del-btn:hover{
+    background-color: rgb(196, 4, 4);
+}
+.popup-val{
+    position: absolute;
+    width: 80%;
+    height: 90%;
+}
+.pop-con{
+    display: flex;
+    flex-direction: column;
+    font-family: "alata",sans-serif;
+    cursor: text;
+    border: 1px solid rgb(201, 200, 200);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    height: 80%;
+}
+.pop-con>div{
+    margin-top: 2px;
+}
+.pop-con > div >span ,.add{
+    font-weight: bold;
+    color: rgb(120, 7, 226);
+}
+.add-con{
+    margin-left: 30px;
+    width: 70%;
+}
+.add-con >div>span{
+    color: rgb(5, 90, 187);
+}

@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
+  margin: 30px 0 0px 0;
+  padding-bottom: 50px;
   flex-direction: column;
   align-items: center;
+}
+.tittle{
+  font-size: 30px;
+  color: rgb(80, 5, 150);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-family: "poppins",sans-serif;
+}
+.search-con{
+  display: flex;
+  font-family: "alata",serif;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+  padding: 5px 5px 5px 8px;
+  border-radius: 9px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 40%;
+}
+.search-con > div {
+  display: flex;
+  justify-content: center;
+  width: 20%;
   color: white;
+  background-color: green;
+  font-size: 22px;
+  padding: 7px;
 }
-
-.App-link {
-  color: #61dafb;
+.inputbox{
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  width: 80%;
+  font-family: "alata",sans-serif;
+  padding: 7px;
+  color: rgb(47, 15, 230);
+  border: 2px solid rgb(101, 3, 230);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputbox:hover{
+  border: 2px solid rgb(1, 92, 28);
+}
+.table {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 70%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-spacing: 0;
+  border-collapse: separate;
+  overflow: hidden;
+}
+.tablehead{
+  font-size: 17px;
+  font-family: "alata",sans-serif;
+  height: 60px;
+  color: white;
+  background: linear-gradient(90deg, rgba(110,5,208,1) 0%, rgba(96,21,227,1) 100%);
+}
+.tablerow>td{
+  padding: 0px 0 0 17px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.tablerow-body{
+  height: 53px;
+  cursor: pointer;
+  color: rgb(23, 1, 58);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.tablerow-body:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(53, 52, 52);
+}
+.tablerow-body>td{
+  padding: 0px 0 0 17px;
+  font-family: "alata",sans-serif;
+  border-right: 1px solid rgba(0, 0, 0, 0.24);
+}
+.tablerow-body>td:hover{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+}
+.tablerow-body:nth-child(even){
+  background-color: rgba(229, 226, 252, 0.952);
+}
+.tablerow-body:nth-child(even):hover{
+  background-color: rgb(53, 52, 52);
 }
