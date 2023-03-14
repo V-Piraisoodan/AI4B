@@ -6,6 +6,8 @@ body{
   background-size:cover;
   height: 100vh;
 }
+
+/* container css */
 .container{
   display: flex;
   margin: 30px 0 0px 0;
@@ -13,6 +15,8 @@ body{
   flex-direction: column;
   align-items: center;
 }
+
+/* heading css */
 .tittle{
   font-size: 30px;
   color: rgb(80, 5, 150);
@@ -24,6 +28,8 @@ body{
   font-weight: bold;
   font-family: "poppins",sans-serif;
 }
+
+/* search-box container  css */
 .search-con{
   display: flex;
   font-family: "alata",serif;
@@ -34,6 +40,7 @@ body{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   width: 40%;
 }
+/* search box - search div css */
 .search-con > div {
   display: flex;
   justify-content: center;
@@ -43,6 +50,8 @@ body{
   font-size: 22px;
   padding: 7px;
 }
+
+/* search -- inputbox css */
 .inputbox{
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -59,6 +68,8 @@ body{
 .inputbox:hover{
   border: 2px solid rgb(1, 92, 28);
 }
+
+/* table container css */
 .table {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   width: 70%;
@@ -70,6 +81,8 @@ body{
   border-collapse: separate;
   overflow: hidden;
 }
+
+/* table heading css */
 .tablehead{
   font-size: 17px;
   font-family: "alata",sans-serif;
@@ -77,10 +90,14 @@ body{
   color: white;
   background: linear-gradient(90deg, rgba(110,5,208,1) 0%, rgba(96,21,227,1) 100%);
 }
+
+/* table tittle css */
 .tablerow>td{
   padding: 0px 0 0 17px;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
+
+/* table value css */
 .tablerow-body{
   height: 53px;
   cursor: pointer;
@@ -97,11 +114,15 @@ body{
   font-family: "alata",sans-serif;
   border-right: 1px solid rgba(0, 0, 0, 0.24);
 }
+
+/* table cell css */
 .tablerow-body>td:hover{
   border-left: 1px solid white;
   border-right: 1px solid white;
   border-top: 1px solid white;
 }
+
+/* nth child css */
 .tablerow-body:nth-child(even){
   background-color: rgba(229, 226, 252, 0.952);
 }

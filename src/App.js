@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import { Getdata } from './component/apiget';
-import Popup from './component/popup';
 
 function App() {
   return (
@@ -10,5 +8,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
