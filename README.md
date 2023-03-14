@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+### My observations
+
+First I got the data from the given link through the `axios` and useEffect.I saved the data into a varibale in `useState`.
+
+Then I create a sample table containing header and empty data cells.
+After that I used the `filter` and `map function` for to serve the data into the table and perform a `Input-box` filter operations.
+
+After getting the data in the table, I made a Modal pop-up appear by clicking on it.
+
+I have made the address, phone number and website appear in this popup modal.And I have also create a `x` button in it.
+
+This pop-up modal should pop-out at the click of a `Escape` button and `clicking outside` of the pop-up modal.And I performed this with the help of `addEventListener` ,`mousedown` ,`keypress` .
