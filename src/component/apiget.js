@@ -65,7 +65,7 @@ export function Getdata(){
         {/* search box */}
         <span className="search-con">
           <div>Search</div>
-          <input type="text" placeholder="Search by Name" onChange={handleChange} className="inputbox"/>
+          <input type="text" placeholder="Search by Id, Name, Username, Email.." onChange={handleChange} className="inputbox"/>
         </span>
 
         {/* modal value */}
@@ -99,6 +99,15 @@ export function Getdata(){
                     if(onset == ""){
                         return val;
                     }else if(val.name.toLowerCase().includes(onset.toLowerCase())){
+                        return val;
+                    }
+                    else if(val.username.toLowerCase().includes(onset.toLowerCase())){
+                        return val;
+                    }
+                    else if(val.email.toLowerCase().includes(onset.toLowerCase())){
+                        return val;
+                    }
+                    else if(val.id == onset){
                         return val;
                     }
                 })

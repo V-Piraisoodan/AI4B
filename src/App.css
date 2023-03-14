@@ -68,6 +68,11 @@ body{
 .inputbox:hover{
   border: 2px solid rgb(1, 92, 28);
 }
+.inputbox:hover::placeholder{
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: transparent;
+}
 
 /* table container css */
 .table {
