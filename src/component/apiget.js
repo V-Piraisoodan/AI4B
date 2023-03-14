@@ -72,10 +72,10 @@ export function Getdata(){
         {pop && <Popup handleClose={handlePopup}
        content={
        <div className="pop-con" ref={menuRef}>
-            <div className="name pop-upval"><span className="span">Name :</span> {open.name}</div>
-            <div className="ph pop-upval"><span className="span">Phone :</span> {open.phone}</div>
-            <div className="web pop-upval"><span className="span">Website :</span> {open.website}</div>
-            <div className="add span">Address :</div>
+            <div className="name pop-upval">🙋‍♂️ <span className="span">Name :</span> {open.name}</div>
+            <div className="ph pop-upval">📞 <span className="span">Phone :</span> {open.phone}</div>
+            <div className="web pop-upval">🌐 <span className="span">Website :</span> {open.website}</div>
+            <div className="add span">🏠 Address :</div>
             <div className="add-con">
                 <div><span className="span">Street :</span> {addr.street} ,</div>
                 <div><span className="span">City :</span> {addr.city} ,</div>
